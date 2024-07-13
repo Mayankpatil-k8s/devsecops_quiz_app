@@ -1,30 +1,22 @@
 # Kubernetes DevSecOps CICD Project Using Github Actions and ArgoCD
 
-## Video Tutorial
+For a comprehensive guide on deploying and managing cloud-native applications using AWS, Kubernetes, and DevSecOps tools:
 
-For a comprehensive guide on deploying and managing cloud-native applications using AWS, Kubernetes, and DevSecOps tools, watch the detailed tutorial:
-
-[![Master Three-Tier Application | A Complete DevSecOps Guide on AWS with Kubernetes, GitOps & ArgoCD](http://img.youtube.com/vi/EVG51U3VcYs/0.jpg)](https://www.youtube.com/watch?v=EVG51U3VcYs "Mastering Cloud-Native Applications: A Complete DevSecOps Guide on AWS with Kubernetes")
-
-Click on the image above to watch the video.
 
 ![gif2](https://github.com/cloudcore-hub/reactjs-quiz-app/assets/88560609/a0dfce93-3bde-45af-b82a-d7c9e2c47294)
 
-- [Step 1: SSH Exchange between local computer and Github account.](#step-1-ssh-exchange-between-local-computer-and-github-account)
-- [Step 2: CREATE AWS Resources.](#step-2-create-aws-resources)
-- [Step 3: Install Terraform & AWS CLI.](#step-3-install-terraform--aws-cli)
-- [Step 4: Deploy the Jumphost Server(EC2) using Terraform on Github Actions.](#step-4-deploy-the-jumphost-server-ec2-using-terraform-on-github-actions)
-- [Step 5: Configure the Jumphost.](#step-5-configure-the-jumphost)
-- [Step 6: Setup Docker Repositories to allow image push for Frontend & Backend images.](#step-6-setup-docker-repositories-to-allow-image-push-for-frontend--backend-images)
-- [Step 7: Configure Sonar Cloud for our app_code Pipeline.](#step-7-configure-sonar-cloud-for-our-app_code-pipeline)
-- [Step 8: Setup Synk Token for the app code pipeline.](#step-8-setup-synk-token-for-the-app-code-pipeline)
-- [Step 9: Review and Deploy Application Code.](#step-9-review-and-deploy-application-code)
-- [Step 10: Configure ArgoCD.](#step-10-configure-argocd)
-- [Step 11: Set up the Monitoring for our EKS Cluster using Prometheus and Grafana.](#step-11-set-up-the-monitoring-for-our-eks-cluster-using-prometheus-and-grafana)
-- [Step 12: Deploy Quiz Application using ArgoCD.](#step-12-deploy-quiz-application-using-argocd)
-- [Step 13: Creating an A-Record in AWS Route 53 Using ALB DNS.](#step-13-creating-an-a-record-in-aws-route-53-using-alb-dns)
-- [Step 14: Clean up.](#step-14-clean-up)
-- [Conclusion](#conclusion)
+- [Step 1: SSH Exchange between local computer and Github account.]
+- [Step 3: Install Terraform & AWS CLI.]
+- [Step 4: Deploy the Jumphost Server(EC2) using Terraform on Github Actions.]
+- [Step 5: Configure the Jumphost.]
+- [Step 6: Setup Docker Repositories to allow image push for Frontend & Backend images.]
+- [Step 7: Configure Sonar Cloud for our app_code Pipeline.]
+- [Step 8: Setup Synk Token for the app code pipeline.]
+- [Step 9: Review and Deploy Application Code.]
+- [Step 10: Configure ArgoCD.]
+- [Step 11: Set up the Monitoring for our EKS Cluster using Prometheus and Grafana.]
+- [Step 12: Deploy Quiz Application using ArgoCD.]
+- [Step 13: Creating an A-Record in AWS Route 53 Using ALB DNS.]
 
 
 ### Project Introduction:
@@ -937,18 +929,3 @@ and then
 terraform destroy -auto-approve
 ```
 
-### Conclusion: 
-In this comprehensive DevSecOps Kubernetes project, we successfully:
-
-- Established IAM user and Terraform for AWS setup.
-- Deployed Infrastructure on AWS using Github Actions and Terraform and, configured tools.
-- Set up an EKS cluster, and configured a Load Balancer.
-- Implemented monitoring with Helm, Prometheus, and Grafana.
-- Installed and configured ArgoCD for GitOps practices.
-- Created Github Action pipelines for CI/CD, deploying a three-tier architecture application.
-- Ensured data persistence with persistent volumes and claims.
-
-Stay connected on LinkedIn: LinkedIn Profile
-Stay up-to-date with GitHub: GitHub Profile
-Feel free to reach out to me, if you have any other queries.
-Happy Coding!
